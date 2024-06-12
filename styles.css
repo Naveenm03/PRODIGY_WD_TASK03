@@ -1,0 +1,42 @@
+    body {
+        background-color: #b9bda8bd; 
+    }
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid black;
+  background-color: rgb(166, 217, 234);
+}
+
+.x {
+  color: blue;
+  font-size: 80px;
+}
+
+.o {
+  color: red;
+  font-size: 80px;
+}
+
+.win {
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#reset {
+  color: blue;
+  margin: 48px 40%;
+  padding: 20px;
+}
